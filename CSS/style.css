@@ -1,0 +1,410 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .border{
+    border: solid 1px black;
+} */
+
+.promo {
+    height: 800px;
+    background: url(../img/backgraund.jpg) center center/ cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.logo .logo_text {
+    margin-bottom: 53px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo .conteiner .tittle{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo .conteiner .simply{
+    margin-top: 21px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo .conteiner .deskr{
+    margin-top: 23px;
+    margin-bottom: 73px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+}
+
+.promo .deskr span{
+    color: #f9bf3b;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+.promo .promo_btn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.promo .under h2{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.promo .under .under_img{
+    display: block;
+    margin: 0 auto;
+    margin-top:13px;
+    cursor: pointer;
+
+}
+
+.weiting{
+    padding: 85px 0 75px 0;
+    min-height: 604px;
+    background-color: #efefef;
+}
+
+.weiting h2{
+    margin-bottom: 39px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.weiting h3{
+    margin-bottom: 45px;
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.weiting .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weiting .wrapper .wrapper_box{
+    text-align: center;
+}
+
+
+.weiting .wrapper .wrapper_box h2{
+    margin-top:33px;
+    max-width: 340px;
+    color: #4a4a4a;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+}
+
+.optimization{
+    position: relative;
+    padding: 102px 0 107px 0;
+}
+
+.optimization img{
+    position: absolute;
+    top:48px;
+    left: 150px;
+    z-index: -1;
+}
+
+.optimization .optimization_meaning{
+    z-index: 2;
+    margin-left: 30%;
+}
+
+.optimization .optimization_meaning h2{
+    margin-bottom: 25px;
+    color: #299cbd;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_meaning h3{
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: justifyLeft;
+    /* Text style for "На простор" */
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.optimization .optimization_meaning h3 span{
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.opportunities{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url(../img/backgraund_foter.jpg) center center/ cover no-repeat;
+}
+
+.opportunities .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opportunities .icons .icons_wrappor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.opportunities h2{
+    margin-bottom: 62px;
+    color: #efefef;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.opportunities .icons .icons_wrappor .circle{
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4e2ff;
+}
+
+
+
+.opportunities .icons .icons_text{
+    max-width: 204px;
+    margin-top: 26px;
+}
+
+.opportunities .icons .icons_text h3{
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.prizes{
+    padding: 86px 0 87px 0;
+    background-color: #efefef;
+}
+
+.prizes img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+.prizes h3{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.prizes button{
+    display: block;
+    margin: 0 auto; 
+    width: 313px;
+    height: 72px;
+    /* box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18); */
+    border: 4px solid rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    /* text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22); */
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.webbinar{
+    padding: 89px 0 64px 0;
+}
+
+.webbinar img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
+
+.webbinar h2{
+    margin-bottom: 30px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.webbinar .time{
+    color: #299cbd;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.webbinar .keep_up{
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer {
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.footer .footer_wrapper{
+    width: 377px;
+    margin: 0 auto;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer a{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
